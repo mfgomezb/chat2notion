@@ -9,8 +9,20 @@
     "lint": {
       "outputs": []
     },
+    "g2n-extension": {
+      "env": [
+        "DATABASE_URL",
+        "NEXTAUTH_URL",
+        "DISCORD_CLIENT_ID",
+        "DISCORD_CLIENT_SECRET"
+      ]
+    },
     "dev": {
       "cache": false
+    },
+    "build-extension": {
+      "dependsOn": ["^build-extension"],
+      "outputs": ["dist/**", ".next/**"]
     }
   }
 }
