@@ -1,0 +1,10 @@
+{
+  "name": "Next Chrome",
+  "description": "Next.js Chrome Extension starter",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "g2n",
+    "default_popup": "index.html"
+  }
+}
